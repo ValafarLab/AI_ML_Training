@@ -1,0 +1,9 @@
+Augmented breast cancer data:
+
+To use they will need to:
+    - Check and remove duplicate values  |  (15 rows are duplicated)
+    - Remove rows with missing values     |  (57 rows have missing data after removing duplicate rows)
+    - Make sure each column is the right type  |   (5 “float” columns are as type “str”)
+    - Transform for Dataframe to X, y                |   (classes “benign” and “malignant” need to be transformed to “0” and “1")
+    - Split X, y into train/test
+    - Do ML
